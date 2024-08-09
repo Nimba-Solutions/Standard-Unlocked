@@ -5,6 +5,10 @@ on:
     branches:
       - feature/**
 
+  pull_request:
+    branches:
+      - feature/**
+
 jobs:
   feature-test:
     uses: nimba-actions/standard-workflows/.github/workflows/feature-2gp.yml@main
