@@ -12,9 +12,6 @@ project:
     source_format: sfdx
 
 tasks:
-    github_package_data:
-        options:
-            context: 'Build Unlocked Test Package'
     robot:
         options:
             suites: robot/CAMG/tests
@@ -29,3 +26,11 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+
+flows:
+    ci_feature_2gp:
+        steps:
+            1: 
+                task: github_package_data
+                options:
+                    context:  $project_config.project__custom__unlocked_context
