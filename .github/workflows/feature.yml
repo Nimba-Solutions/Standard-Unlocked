@@ -11,7 +11,7 @@ on:
 
 jobs:
   feature-test:
-    uses: nimba-actions/standard-workflows/.github/workflows/feature-2gp.yml@main
+    uses: nimba-actions/standard-workflows/.github/workflows/feature-unlocked.yml@main
     secrets:
       dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
     with:
