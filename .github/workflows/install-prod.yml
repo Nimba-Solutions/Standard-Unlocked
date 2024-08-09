@@ -1,0 +1,16 @@
+name: Install Production
+
+on:
+  workflow_dispatch:
+    inputs:
+      cumulusci-version:
+        required: false
+        type: string
+
+jobs:
+    install-prod:
+        uses: nimba-actions/standard-workflows/.github/workflows/install-production.yml@main
+        secrets:
+          prod-org-auth-url: ${{ secrets.PROD_ORG_AUTH_URL }}
+        with:
+          cumulusci-version: "3.78.0"

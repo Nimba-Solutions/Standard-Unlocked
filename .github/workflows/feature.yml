@@ -1,0 +1,15 @@
+name: Feature Test
+
+on:
+  push:
+    branches:
+      - feature/**
+
+jobs:
+  feature-test:
+    uses: nimba-actions/standard-workflows/.github/workflows/feature-2gp.yml@main
+    secrets:
+      dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
+    with:
+      cumulusci-version: "3.80.0"
+      sfdx-version: "7.209.6"
