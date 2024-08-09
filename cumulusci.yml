@@ -12,6 +12,9 @@ project:
     source_format: sfdx
 
 tasks:
+    github_package_data:
+        options:
+            context: 'Build Unlocked Test Package'
     robot:
         options:
             suites: robot/CAMG/tests
