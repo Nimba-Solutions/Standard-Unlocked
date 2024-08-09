@@ -1,17 +1,30 @@
 name: Feature Test
-
 on:
   push:
     branches:
-      - feature/**
-
+      - 'feature/**'
   pull_request:
-    branches:
-      - feature/**
+    branches-ignore:
+      - '!feature/**'
 
 jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - id: check
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]] || [[ "${{ github.event.pull_request.base.ref }}" == feature/* ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+
   feature-test:
-    uses: nimba-actions/standard-workflows/.github/workflows/feature-2gp.yml@main
+    needs: check_pr
+    if: needs.check_pr.outputs.should_run == 'true'
+    uses: nimba-actions/standard-workflows/.github/workflows/feature-unlocked.yml@main
     secrets:
       dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
     with:
