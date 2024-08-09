@@ -42,3 +42,4 @@
 4. Run `cci org browser dev` to open the org in your browser.
 5. [OPTIONAL] Run `cci flow run install_prod --org <target-org-alias>` to install the package and _all of its dependencies_ in `<target-org-alias>`.
 
+... testing install beta
