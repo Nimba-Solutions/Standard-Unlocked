@@ -26,12 +26,3 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
-
-flows:
-    # muting this for now 
-    # ci_feature_2gp:
-    #     steps:
-    #         1: 
-    #             task: github_package_data
-    #             options:
-    #                 context:  $project_config.project__custom__unlocked_context
