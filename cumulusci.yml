@@ -4,6 +4,10 @@ project:
     package:
         name: CAMG
         api_version: '61.0'
+    dependencies:
+        - version_id: 04t8b000001ZxNVAA0 # FlowActionsBasePack Version: 3.18
+        - version_id: 04t5G000004fz7mQAA # FlowScreenComponentsBasePack Version: 3.3.4
+        - version_id: 04t5G0000043xu3QAA # https://unofficialsf.com/from-josh-dayment-improved-file-upload-in-flow-screens/
     git:
         default_branch: 'main'
         prefix_feature: 'feature/'
@@ -26,3 +30,10 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+flows:
+    ci_feature_2gp:
+        steps:
+            1: 
+                task: github_package_data
+                options:
+                    context:  $project_config.project__custom__unlocked_context
