@@ -1,1 +1,18 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "61.0"}
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "CAMG",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT",
+            "versionDescription": "Initial version of the CAMG Package"
+        },
+        {
+            "path": "unpackaged"
+        }
+    ],
+    "namespace": null,
+    "sourceApiVersion": "61.0",
+    "packageAliases": {}
+}
