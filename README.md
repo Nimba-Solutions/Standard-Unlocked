@@ -1,10 +1,10 @@
-# CAMG
+# Standard-Unlocked
 
 ## Development
 
 ### [Recommended] Contribute to this project in your browser. 
 
-1. [Navigate to the CAMG project in nimba.dev](https://www.nimba.dev/projects/camg)
+1. [Navigate to the Standard-Unlocked project in nimba.dev](https://www.nimba.dev/projects/Standard-Unlocked)
 2. Create / Go To a Task record.
 3. In the `Developer` card, click "Assign" and select yourself.
 4. Click `Create Org` (NOT `Create Scratch Org`)
@@ -19,7 +19,7 @@
 
 ### [Recommended] Release this project using Github Actions
 
-1. [Navigate to Settings > Secrets and Actions > Actions](https://github.com/Nimba-Solutions/CAMG/settings/secrets/actions)
+1. [Navigate to Settings > Secrets and Actions > Actions](https://github.com/Nimba-Solutions/Standard-Unlocked/settings/secrets/actions)
 2. Update `DEV_HUB_AUTH_URL` with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
 3. [OPTIONAL] Update `BETA_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
 4. [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`

@@ -3,10 +3,10 @@
         {
             "path": "force-app",
             "default": true,
-            "package": "CAMG",
+            "package": "Standard-Unlocked",
             "versionName": "ver 1.0",
             "versionNumber": "1.0.0.NEXT",
-            "versionDescription": "Initial version of the CAMG Package"
+            "versionDescription": "Initial version of the Standard-Unlocked Package"
         },
         {
             "path": "unpackaged"

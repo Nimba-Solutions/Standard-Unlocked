@@ -1,8 +1,8 @@
 minimum_cumulusci_version: '3.78.0'
 project:
-    name: CAMG
+    name: Standard-Unlocked
     package:
-        name: CAMG
+        name: Standard-Unlocked
         api_version: '61.0'
     dependencies:
         - version_id: 04t8b000001ZxNVAA0 # FlowActionsBasePack Version: 3.18
@@ -18,14 +18,14 @@ project:
 tasks:
     robot:
         options:
-            suites: robot/CAMG/tests
+            suites: robot/Standard-Unlocked/tests
             options:
-                outputdir: robot/CAMG/results
+                outputdir: robot/Standard-Unlocked/results
 
     robot_testdoc:
         options:
-            path: robot/CAMG/tests
-            output: robot/CAMG/doc/CAMG_tests.html
+            path: robot/Standard-Unlocked/tests
+            output: robot/Standard-Unlocked/doc/Standard-Unlocked_tests.html
 
     run_tests:
         options:
