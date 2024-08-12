@@ -3,6 +3,8 @@ on:
   pull_request:
     branches:
       - "main"
+    paths:
+      - 'force-app/**' # Only generate a new package if the package contents have been changed.
 jobs:
   upload-beta:
     uses: nimba-actions/standard-workflows/.github/workflows/beta-unlocked.yml@main
