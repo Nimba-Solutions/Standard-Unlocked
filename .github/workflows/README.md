@@ -1,10 +1,10 @@
 # Using these workflows
 
 ## Initial Setup
-- [X] Navigate to Your Repository > Settings > Secrets and Actions > Actions
-- [X] Create or Update your `DEV_HUB_AUTH_URL` Repository Secret with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
+- [ ] Navigate to Your Repository > Settings > Secrets and Actions > Actions
+- [ ] Create or Update your `DEV_HUB_AUTH_URL` Repository Secret with your Dev Hub's `sfdxAuthUrl` ([How do I obtain an `sfdxAuthUrl`?](https://github.com/Nimba-Solutions/.github/wiki/Obtain-an-SFDX-Auth-URL))
 - [ ] [OPTIONAL] Update `SANDBOX_ORG_AUTH_URL` with your UAT Sandbox `sfdxAuthUrl`
-- [X] [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
+- [ ] [OPTIONAL] Update `PROD_ORG_AUTH_URL` with your Production `sfdxAuthUrl`
 
 ## Releases
 
