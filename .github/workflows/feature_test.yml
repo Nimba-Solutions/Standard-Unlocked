@@ -1,0 +1,21 @@
+# This workflow generates a FEATURE TEST PACKAGE from the latest Commit SHA.
+# It only serves to validate the deployment and packageability of the latest commit.
+# It does NOT affect the version of the package and is not included in the package ancestry.
+# To generate a new Beta Package Version, you need to run the `Beta (Unlocked) - Create` workflow.
+
+name: Feature - Test (Unlocked)
+
+on:
+  pull_request:
+    branches:
+      - feature/**
+
+jobs:
+  feature-test:
+    if: startsWith(github.head_ref, 'feature/')
+    uses: nimba-actions/standard-workflows/.github/workflows/feature-unlocked.yml@main
+    secrets:
+      dev-hub-auth-url: ${{ secrets.DEV_HUB_AUTH_URL }}
+    with:
+      cumulusci-version: "3.80.0"
+      sfdx-version: "7.209.6"
