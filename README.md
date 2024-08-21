@@ -4,22 +4,9 @@
 
 1. Fork this repository.
 2. Make a _new_ Repository in your organization and select your fork as the `Repository Template`
-3. Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the included CICD for this project.
+4. Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the included CICD for this project.
 
 ## Development
-
-### [Recommended] Contribute to this project in your browser. 
-
-1. [Navigate to the PROJECT_NAME project in nimba.dev](https://www.nimba.dev/projects/PROJECT_NAME)
-2. Create / Go To a Task record.
-3. In the `Developer` card, click `Assign` and select yourself.
-4. Click `Create Org` (NOT `Create Scratch Org`)
-5. Log into the org, build your solution, and periodically retrieve your changes.
-6. When you're ready, click `Submit Task for Testing`.
-7. Click `View Pull Request`.
-8. Monitor for Success/Failure
-
-### [Advanced] Contribute to this project on your device. 
 
 1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html) in your preferred development environnment.
 2. Run `cci flow run dev_org --org dev` to deploy this project.
