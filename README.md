@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-- [ ] Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the bootstrapped CICD for this project.
+1. Clone this repository.
+2. Make a _new_ Repository and select this one as the `Repository Template`
+3. Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the included CICD for this project.
 
 ## Development
 
