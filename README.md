@@ -1,5 +1,8 @@
 # Standard-Unlocked
 
+![image](https://github.com/user-attachments/assets/6b7d1dc8-30cb-4740-964e-8cd55f54a847)
+[Image Credit: CumulusCI Documentation](https://cumulusci.readthedocs.io/en/stable/cumulusci-flow.html)
+
 ## Getting Started
 
 1. Fork this repository.
