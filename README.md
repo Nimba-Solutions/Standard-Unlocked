@@ -1,5 +1,11 @@
 # Standard-Unlocked
 
+This repository contains everything you need to realize enterprise-grade Salesforce CICD practices without an enterprise-grade investment. 
+
+The provided [Github Actions](.github/workflows/README.md#releases) provide a standardized framework for building, testing, and delivering solutions in a consistent and repeatable manner. We strongly advocate following a "Release Train" development model. When applied with discipline, we find that this approach consistently balances business demands, development rigor, and the constraints of Salesforce as a platform better than any alternative. 
+
+## Salesforce Release Train Development Cadence
+
 ![image](https://github.com/user-attachments/assets/6b7d1dc8-30cb-4740-964e-8cd55f54a847)
 [Image Credit: CumulusCI Documentation](https://cumulusci.readthedocs.io/en/stable/cumulusci-flow.html)
 
