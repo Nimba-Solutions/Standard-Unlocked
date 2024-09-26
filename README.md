@@ -1,6 +1,6 @@
 # Standard-Unlocked
 
-This repository contains everything you need to realize enterprise-grade Salesforce CICD practices without an enterprise-grade investment. 
+This repository contains everything you need to realize enterprise-grade Salesforce CICD practices without making an enterprise-grade investment. 
 
 The included [Github Actions](.github/workflows/README.md#releases) provide a standardized (and mostly automated!) framework for building, testing, and delivering solutions in a consistent and repeatable manner. 
 
