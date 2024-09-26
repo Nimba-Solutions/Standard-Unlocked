@@ -33,7 +33,7 @@ We strongly advocate adhering to a "Release Train" development methodology for S
 
 ### [Recommended] Release this project using the Built-in CICD Actions
 
-Follow the provided [`Releases` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#releases).
+Follow the provided [`Release` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#releases).
 
 
 ---
