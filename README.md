@@ -33,6 +33,9 @@ The provided [Github Actions](.github/workflows/README.md#releases) provide a st
 
 Follow the provided [`Releases` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#releases).
 
+
+---
+
 ### [Advanced] Release this project using your CLI
 
 #### To release a new `beta` version of this package:
