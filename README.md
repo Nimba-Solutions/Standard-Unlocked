@@ -4,7 +4,7 @@ This repository contains everything you need to realize enterprise-grade Salesfo
 
 The included [Github Actions](.github/workflows/README.md#releases) provide a standardized (and mostly automated!) framework for building, testing, and delivering solutions in a consistent and repeatable manner. 
 
-We strongly advocate adhering to a "Release Train" development methodology for Salesforce development. When applied with discipline, this approach consistently balances business demands, development rigor, and the unique constraints of working with Salesforce significantly better than other popular methodologies (e.g. Scrum).
+We strongly advocate adhering to a "Release Train" development methodology for Salesforce development. When applied with discipline, this approach consistently balances business demands, development rigor, and the unique constraints of working with Salesforce metadata significantly better than other popular methodologies (e.g. Scrum).
 
 ## Salesforce Release Train Development Cadence
 
