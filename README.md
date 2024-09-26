@@ -2,7 +2,9 @@
 
 This repository contains everything you need to realize enterprise-grade Salesforce CICD practices without an enterprise-grade investment. 
 
-The included [Github Actions](.github/workflows/README.md#releases) provide a standardized (and mostly automated!) framework for building, testing, and delivering solutions in a consistent and repeatable manner. We strongly advocate following a "Release Train" development model. When applied with discipline, we find that this approach consistently balances business demands, development rigor, and the constraints of Salesforce as a platform better than its alternatives.
+The included [Github Actions](.github/workflows/README.md#releases) provide a standardized (and mostly automated!) framework for building, testing, and delivering solutions in a consistent and repeatable manner. 
+
+We strongly advocate adhering to a "Release Train" development methodology for Salesforce development. When applied with discipline, this approach consistently balances business demands, development rigor, and the unique constraints of working with Salesforce significantly better than other popular methodologies (e.g. Scrum).
 
 ## Salesforce Release Train Development Cadence
 
